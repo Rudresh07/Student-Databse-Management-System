@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <title>DEPARTMENT</title>
+
+    <style>
+        body{
+            background-color: powderblue;
+        }
+    </style>
+   
+</head>
+<body>
+   
+        
+   
+ 
+    
+   <div id="Rudy" style="margin-left: 20%;">
+    <table style="width: 100%;">
+        <tr>
+          <center><h1>Department Details</h1></center> 
+        </tr>
+             
+        <form  action="connectdept.php" method="post">
+           
+            <div class="input-groups">
+     
+            
+             <tr style="height: 80px">
+                 <td>
+                     <label for="fname"><b><h2>Department Id:</h2></b></label>
+                 </td>
+                 <td>
+                     <input type="text" placeholder="Department Id" id="fname" name="deptid" required>
+                 </td>
+                 <td>
+                     <label for="lname"><b><h2>Department Id:</h2></b></label>
+                 </td>
+                 <td>
+                     <input type="text" placeholder="Department Name" id="lname" name="deptname" required>
+                 </td>
+             </tr>
+            
+     
+            
+             <tr style="height: 80px">
+                 <td>
+                     <label for="age"><b><h2>Head Of Department:</h2></b></label>
+                 </td>
+                 
+                
+                 <td>
+                     <input type="text" placeholder="Hod" id="age" name="hod" required>
+                 </td>
+                 <td>
+                    <label for="address"><b><h2>Phone No:</h2></b></label>
+                 </td>
+                 <td>
+                    <input type="text" placeholder="Phone Number" id="address" name="phone" required>
+                 </td>
+             </tr>
+             
+           
+     
+             <td style="height: 80px;">
+                <input type="submit" name="submit" value="Submit">
+            </td>
+          
+            
+     
+            
+            
+         </form>
+       </table>
+   </div>
+</body>
+</html>

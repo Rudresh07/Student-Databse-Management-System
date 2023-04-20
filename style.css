@@ -1,0 +1,172 @@
+body{
+   
+    min-height: 80vh;
+    display: flex;
+    /* text-align: center; */
+    
+}
+#td
+{
+    text-align: center;
+    align-items: center;
+}
+#tr
+{
+    text-align: center;
+}
+
+#fname
+{
+    flex: 1 1 0%;
+    background-color: #f4f4f6;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-right: 100px;
+    margin-left: 30px;
+    margin-right: 100px;
+   margin-top: 20px;
+    
+}
+#lname
+{
+    flex: 1 1 0%;
+    background-color: #f4f4f6;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+#branch
+{
+    flex: 1 1 0%;
+    background-color: #f4f4f6;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-right: 100px;
+    margin-left: 30px;
+    
+}
+#rollno
+{
+    flex: 1 1 0%;
+    background-color: #f4f4f6;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-right: 100px;
+    margin-left: 30px;
+    
+}
+#address
+{
+    flex: 1 1 0%;
+    background-color: #f4f4f6;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-right: 100px;
+    margin-left: 30px;
+    
+}
+#email
+{
+    flex: 1 1 0%;
+    background-color: #f4f4f6;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-right: 100px;
+    margin-left: 30px;
+    
+}
+#result
+{
+    flex: 1 1 0%;
+    background-color: #f4f4f6;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-right: 100px;
+    margin-left: 30px;
+    
+}
+#age
+{
+    flex: 1 1 0%;
+    background-color: #f4f4f6;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-right: 100px;
+    margin-left: 30px;
+    
+    
+}
+#year
+{
+    flex: 1 1 0%;
+    background-color: #f4f4f6;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-right: 100px;
+    margin-left: 30px;
+    
+}
+#gender
+{
+    flex: 1 1 0%;
+    background-color: #f4f4f6;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+.input-field1
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.input-field2
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-field3
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-field4
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-field5
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    position: relative;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    left: 400px;
+  }
+  input[type="submit"]:hover {
+    background-color: #000000;
+  }
+
+  /* #table
+  {
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+  } */
+  
+  #Rudy
+  {
+     text-align: center;
+    margin-top: 100px;
+    font-weight: 400;
+   
+    
+  }

@@ -1,0 +1,90 @@
+p{
+   text-align: center;
+  color: #7B3F9A;
+   font-weight: bold;
+}
+
+.box p-3 shadow bg-white rounded my-3{
+    display: inline-block;
+}
+
+.header{
+    background:linear-gradient(45deg, #7B3F9A, #C83791 ,#C81D4B);
+   
+}
+.iiitbh{
+    background-color: white;
+    border-radius: 100%;
+    margin-right: 25px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.aeroplane{
+    width: 45px;
+    height: 45px;
+}
+
+.nav-link{
+    color: aliceblue !important;
+}
+.navbar-brand{
+    color: aliceblue !important;
+}
+.trip{
+    text-align: center;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+}
+.book{
+    margin-top:100px ;
+    text-align: center;
+}
+#book{
+    font-size: 2rem;
+}
+#san{
+    color: #7B3F9A;
+    font-weight: bold;
+}
+#team{
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 250px;
+   background-color: rgb(221, 244, 247);
+}
+#multi{
+    color: #7B3F9A;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+#multi1{
+   
+    font-weight: normal;
+    text-align: center;
+    padding:  0;
+    
+}
+
+.no-padding{
+    margin: 0;
+    padding: 0;
+}
+.last{
+    background-color: #EEEEEE;
+    margin-top: 100px;
+    padding-bottom: 200px;
+}
+.fire{
+    text-align: center;
+    
+}
+.fire1{
+    text-align: center;
+    width: 35%;
+    height: 35%;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <title>PROFESSOR</title>
+   
+
+    <style>
+        body{
+            background-color: powderblue;
+        }
+    </style>
+</head>
+<body>
+   
+        
+   
+ 
+    
+   <div id="Rudy" style="margin-left: 20%;">
+    <table style="width: 100%;">
+        <tr>
+          <center><h1>Professor Details</h1></center> 
+        </tr>
+             
+        <form  
+        action="connectprof.php" 
+        method="post">
+           
+            <div class="input-groups">
+     
+            
+             <tr style="height: 80px">
+                 <td>
+                     <label for="fname"><b><h2>Employee Id:</h2></b></label>
+                 </td>
+                 <td>
+                     <input type="text" placeholder="Employee Id" id="fname" name="empid" required>
+                 </td>
+                 <td>
+                     <label for="lname"><b><h2>Employee Name:</h2></b></label>
+                 </td>
+                 <td>
+                     <input type="text" placeholder="Employee Name" id="lname" name="name" required>
+                 </td>
+             </tr>
+            
+     
+        
+             <tr style="height: 80px">
+                 <td>
+                     <label for="age"><b><h2>Department Number:</h2></b></label>
+                 </td>
+                 
+                <td>
+                     <input type="text" placeholder="Department Number" id="age" name="deptno" required>
+                 </td>
+                 <td>
+                     <label for="gender"><b><h2>Gender:</h2></b></label>
+                 </td>
+                 <td>
+                     <input type="radio" id="male" name="gender" value="male" >
+                     <label for="male"><b>Male</b></label>
+                     <input type="radio" id="female" name="gender" value="female">
+                     <label for="female"><b>Female</b></label>
+                 </td>
+             </tr>
+             
+                                                
+     
+            
+         <td style="height: 80px;">
+             <input type="submit" name="submit" value="Submit">
+         </td>
+     
+            
+         </form>
+       </table>
+   </div>
+</body>
+</html>
